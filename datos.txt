@@ -1,0 +1,41 @@
+$user->roles()->attach(4)
+$user->roles()->detach(1)
+$user->roles()->attach([1,2,3])
+$user->roles()->sync([1,2])
+
+
+ $user->image()->create(['url' => 'url 1'])
+ 
+ $factura = Factura::with('cliente', 'itemsFactura')->find(1);
+ 
+ $cliente = $factura->cliente;
+$itemsFactura = $factura->itemsFactura;
+
+Extensiones Vs/Code
+Aplpine.js IntelliSense
+Ayu
+Es7 + React/React-Native
+html to jsx
+Laravel Blade Formater
+Larave Blade Snipper
+Laravel Extra Inellisense
+Laravel Goto Controller
+Laravel Snippets
+Material Icon Theme
+Php Inteliphnse
+Ply***
+Prettier - Code Formatter
+Tabnine Ai
+Test Adapter Converter
+Test Explorer UI
+Thunder Client
+
+
+Asignacion de roles
+$user->roles()->attach(4)
+$user->roles()->detach(1)
+$user->roles()->attach([1,2,3])
+$user->roles()->sync([1,2])
+
+
+$user->image()->create(['url' => 'url 1'])
